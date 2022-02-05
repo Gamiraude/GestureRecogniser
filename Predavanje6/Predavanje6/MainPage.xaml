@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Predavanje6.MainPage">
+
+    <StackLayout>
+        <Label Text="02hero"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               FontSize="50"
+               TextColor="Black"
+               TextDecorations="Underline,Strikethrough"/>
+        <Label x:Name="GestureLabel"
+               Text="02Hero"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               FontSize="50"
+               TextColor="Blue"
+               BackgroundColor="CornflowerBlue"
+               TextTransform="Uppercase"
+               CharacterSpacing="5">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Label.GestureRecognizers>
+        </Label>
+        <Label HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               FontSize="Title"
+               MaxLines="-1"
+               LineBreakMode="TailTruncation">
+            <Label.Text>
+                Lick plastic bags climb leg i just saw other cats inside the house and nobody ask me before using my litter box love you, then bite you. 
+                Cats woo meeeeouw so hiding behind the couch until lured out by a feathery toy cats making all the muffins so i will be pet i will be pet 
+                and then i will hiss and go into a room to decide you didn't want to be in there anyway so check cat door for ambush 10 times before coming in. 
+                Lie on your belly and purr when you are asleep ignore the squirrels, you'll never catch them anyway. If it fits, i sits eat all the power cords purr 
+                purr purr until owner pets why owner not pet me hiss scratch meow or put toy mouse in food bowl run out of litter box at full speed but thinking about 
+                you i'm joking it's food always food and you have cat to be kitten me right meow, i like frogs and 0 gravity. Slap the dog because cats rule claws in the 
+                eye of the beholder making sure that fluff gets into the owner's eyes lick face hiss at owner, pee a lot, and meow repeatedly scratch at fence purrrrrr eat 
+                muffins and poutine until owner comes back yet i can haz. Need to check on human, have not seen in an hour might be dead oh look, human is alive, hiss at human, 
+                feed me stare out cat door then go back inside sniff all the things at four in the morning wake up owner meeeeeeooww scratch at legs and beg for food then cry and 
+                yowl until they wake up at two pm jump on window and sleep while observing the bootyful cat next door that u really like but who already has a boyfriend end up making 
+                babies with her and let her move in, the best thing in the universe is a cardboard box. Lick human with sandpaper tongue destroy dog, cat slap dog in face, mew mew for 
+                lick master's hand at first then bite because im moody cat snacks. What a cat-ass-trophy! meow meow you are my owner so here is a dead rat for sleep nap eat the fat 
+                cats food so meoooow, yet bury the poop bury it deep for fat baby cat best buddy little guy. Dream about hunting birds stretch, or furrier and even more furrier 
+                hairball and ooh, are those your $250 dollar sandals? lemme use that as my litter box rub against owner because nose is wet. Scratch toy mouse squeak roll over. 
+                I want to go outside let me go outside nevermind inside is better i can haz for why must they do that, but make it to the carpet before i vomit mmmmmm and loved it, 
+                hated it, loved it, hated it. Eat the rubberband why must they do that, yet wake up human for food at 4am.
+            </Label.Text>
+        </Label>
+        <Label Text="Xamarin"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               TextColor="Crimson"
+               FontSize="40"
+               FontFamily="Comic"/>
+        <Label Text="Xamarin"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               TextColor="Crimson"
+               FontSize="40"
+               FontFamily="Comic-Bold"/>
+        <Label Text="Xamarin"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               TextColor="DarkTurquoise"
+               FontSize="40"
+               FontAttributes="Bold,Italic"/>
+        <Label HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               FontSize="40"
+               TextColor="Red">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Comic-default"
+                          TextColor="MediumPurple"
+                          FontFamily="Comic"
+                          FontSize="20"/>
+                    <Span Text=" | "/>
+                    <Span Text="Comic-bold"
+                          TextColor="Turquoise"
+                          FontFamily="Comic-Bold"
+                          FontSize="30"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label x:Name="LinkLabel"
+               Text="neki link"
+               HorizontalOptions="Center"
+               TextColor="Blue"
+               TextDecorations="Underline"
+               FontSize="30">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+
+
+    </StackLayout>
+
+</ContentPage>
